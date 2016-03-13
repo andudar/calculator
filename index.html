@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JavaScript</title>
+	<link rel="stylesheet" href="style/style.css">
+	<style>
+		.container{
+			margin-left: 10px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Calculator</h1>
+<div class="container">
+	<input type="text" id="field">
+	<table id="table">
+		<tbody>
+		
+		<tr>
+				<td id="clear">C</td>
+				<td class="operation">/</td>
+				<td class="operation">*</td>
+				<td class="operation">-</td>
+			</tr>
+			<tr>
+				<td class="deleteOneSymbol">&#8592;</td>
+				<td class="brackets">(</td>
+				<td class="brackets">)</td>
+				<td class="operation">%</td>
+
+			</tr>
+			<tr>
+				<td class="number">7</td>
+				<td class="number">8</td>
+				<td class="number">9</td>
+				<td class="operation" rowspan="2">+</td>
+			</tr>
+			<tr>
+				<td class="number">4</td>
+				<td class="number">5</td>
+				<td class="number">6</td>				
+			</tr>
+			<tr>
+				<td class="number">1</td>
+				<td class="number">2</td>
+				<td class="number">3</td>
+				<td id="calculate" rowspan="2">calc</td>
+			</tr>
+			<tr>
+				<td class="number" colspan="2">0</td>
+				<td class="dot">.</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	<script src="main.js" type="text/JavaScript"></script>
+</body>
+</html>
